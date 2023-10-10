@@ -27,6 +27,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: fastify/github-action-merge-dependabot@v3
+      - uses: diranged/github-action-merge-dependabot@v3
         with:
           target: major
+          event-name: pull_request_target
