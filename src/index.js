@@ -4,7 +4,7 @@ const buildServer = () => {
   const server = Fastify();
 
   server.get("/", async () => {
-    return { hello: process.env.HELLO };
+    return { hello: "world" };
   });
 
   return server;
