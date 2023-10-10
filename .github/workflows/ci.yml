@@ -27,7 +27,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: diranged/github-action-merge-dependabot@v3
+      - uses: diranged/github-action-merge-dependabot@672c9104e034cd03274dd625a955cf60d21ed011
         with:
           target: major
           event-name: pull_request_target
