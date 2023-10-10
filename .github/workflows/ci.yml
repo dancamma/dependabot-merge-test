@@ -6,13 +6,6 @@ on:
   pull_request_target:
     types:
       - opened
-      - synchronize
-      - reopened
-      - ready_for_review
-      - labeled
-      - unlabeled
-      - edited
-      - closed
 
 jobs:
   build:
