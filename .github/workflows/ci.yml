@@ -27,6 +27,6 @@ jobs:
       contents: write
 
     steps:
-      - uses: dancamma/github-action-merge-dependabot@dependabot-fetch-metadata
+      - uses: dancamma/github-action-merge-dependabot@498-fail-with-error-unsupported-trigger
         with:
           target: major
